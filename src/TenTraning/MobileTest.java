@@ -20,7 +20,7 @@ public class MobileTest {
 		else if (mobile.matches("^[0-9]*$"))// 手机号码里必须为数字。。。。。
 		{
 			System.out.println("输入正确!");
-			System.out.println("手机号码为: " + mobile);
+			System.out.println("手机号码为: " + mobile);  //输出手机号码
 
 		} else {
 			throw new MobileExeption("手机号必须为数字!");
